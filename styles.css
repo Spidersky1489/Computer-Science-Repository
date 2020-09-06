@@ -93,12 +93,15 @@ div.round {
 	box-sizing: border-box;
 	font-family: 'Roboto', sans-serif;	color: black;
 	font-size: 20px;
+	text-align: justify-all
 }
 .centered {
   position: absolute;
   text-align: center;
 }
 .centered img {
-  width: 25%;
-  border-radius: 50%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
 }
