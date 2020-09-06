@@ -69,6 +69,31 @@ div.round {
   margin-top: 150px;
   margin-bottom: 35px;
  }
+.split75{
+	max-height: inherit;
+	margin-left: 0.5%;
+	margin-right: 0.5%;
+	margin-bottom: 35px;
+	width: 74%;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;	color: black;
+	font-size: 20px;
+	text-align: justify-all
+}
+.split25{
+	max-height: inherit;
+	position:absolute;
+	margin-left: 0.5%;
+	margin-right: 0.5%;
+	margin-bottom: 35px;
+	width: 24%;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;	color: black;
+	font-size: 20px;
+	text-align: justify-all;
+	top: 0;
+	margin-top: 140px;
+}
 .splitBottom{
 	position: fixed;
 	bottom: 0;
