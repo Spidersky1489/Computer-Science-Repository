@@ -49,6 +49,12 @@ a{
 a:hover {
 	color: red
 }
+p{
+	padding-left: 10px;
+}
+h1, h2, h3{
+	margin-left: 10px;
+}
 div.round {
 	border: 1px solid black;
 	border-radius: 10px;
