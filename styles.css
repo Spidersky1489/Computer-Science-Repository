@@ -18,7 +18,8 @@ body {
 	text-align: center;
 }
 .headerText {
-font-family: 'Roboto', sans-serif;	color: black;
+font-family: 'Roboto', sans-serif;
+	color: black;
 	font-size: 30px;
 	text-align: center;
 }
@@ -28,6 +29,19 @@ font-family: 'Roboto', sans-serif;	color: black;
 	font-style: italic;
 	font-size: 20px;
 	text-align: center;
+}
+table{
+	font-family: 'Roboto', sans-serif;
+	border-collapse: collapse;
+	width: auto;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+th,td{
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
 }
 a{
 	color: black
