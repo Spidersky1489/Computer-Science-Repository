@@ -12,7 +12,7 @@ body {
     background-attachment: fixed;
 }
 .headerBackground{
-	background-color: #B8FF6E
+	background-color: #D7FFAE
 }
 .headerDiv{
 	text-align: center;
@@ -40,41 +40,48 @@ div.round {
 	border-radius: 10px;
 }
 .text{
-font-family: 'Roboto', sans-serif;	color: black;
+	font-family: 'Roboto', sans-serif;	color: black;
 	font-size: 25px;
 }
 .split {
-  height: 100%;
-  width: 50%;
+  max-height: inherit;
+  width: 49%;
   position: absolute;
   z-index: 1;
   top: 0;
   overflow-x: hidden;
   padding: 0px 20px ;
-  box-sizing: border-box;
+  box-sizing: border-box ;
   margin-top: 150px;
-  margin-bottom: 200px;
+  margin-bottom: 35px;
  }
 .splitBottom{
-	height: 100px;
-	bottom: 30px
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	z-index: 1;
+	height: 25px
 }
 .left {
   left: 0;
+	margin-left: 0.5%
 }
 
 .right {
   right: 0;
+	margin-right: 0.5%
 }
-.bottom{
-  bottom: 0;
+.content{
+	max-height: inherit;
+	margin-left: 0.5%;
+	margin-right: 0.5%;
+	margin-bottom: 35px;
+	box-sizing: border-box;
+	font-family: 'Roboto', sans-serif;	color: black;
+	font-size: 20px;
 }
-
 .centered {
   position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   text-align: center;
 }
 .centered img {
