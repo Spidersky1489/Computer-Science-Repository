@@ -36,6 +36,10 @@ a{
 a:hover {
 	color: black
 }
+.round {
+	border: 2px #000000;
+	border-radius: 5px;
+}
 .text{
 	font-family: 'Ubuntu', sans-serif;
 	color: black;
