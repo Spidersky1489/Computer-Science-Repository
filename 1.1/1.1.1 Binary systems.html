@@ -145,6 +145,35 @@
  ---
 </pre>
 			<p>Which gets us the answer of <b>37</b>.</p>
+			<div style="border-bottom:1px solid #71be3f; background-color:#c0eaa6; padding:0.2em 0.9em 0.2em 0.5em; font-size:120%; font-weight:bold;">Example</div><div style="padding:0.25em 0.5em 0.2em 0.5em;">
+<p><i>Convert the denary number 73 in to binary.</i>
+</p><p>First I write out the denary place values from right to left:
+</p>
+<pre>  128  64   32   16    8    4    2    1
+</pre>
+<p>I don't need to use the 128 as it is too high, so I write a 0 under it:
+</p>
+<pre>  128  64   32   16    8    4    2    1
+    0
+</pre>
+<p>I can use the 64, which leaves me with 9 left to make:
+</p>
+<pre>  128  64   32   16    8    4    2    1
+    0   1
+</pre>
+<p>With only 9 left I don't need the 32 or the 16, but I do need the 8:
+</p>
+<pre>  128  64   32   16    8    4    2    1
+    0   1    0    0    1
+</pre>
+<p>This leaves me with only 1 left, so I don't need the 4 or the 2:
+</p>
+<pre>  128  64   32   16    8    4    2    1
+    0   1    0    0    1    0    0    1
+</pre>
+<p>I can see from this that my final answer is <b>1001001</b>.
+</p>
+</div>
 		</div>
 	<div class = "headerBackground splitBottom text" style="font-size: 20px">Page created and designed by Akhtar Ahmad</div>
 	</body>
